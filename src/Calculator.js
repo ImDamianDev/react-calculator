@@ -61,7 +61,7 @@ function Calculator() {
       <button onClick={() => handleButtonClick('.')}>.</button>
       <button onClick={() => handleButtonClick('0')}>0</button>
       <button onClick={() => handleButtonClick('00')}>00</button>
-      <button onClick={handleEquals} className="operator-button">=</button>      
+      <button onClick={handleEquals} className="equal-button">=</button>
       </div>
     </div>
   );

@@ -1,16 +1,15 @@
 .calculator {
   height: 100vh;
   margin: 0 auto;
-  background-color: #f8f8f8;
 }
 
 .calculator input[type="text"] {
   font-size: 24px;
   padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
   width: 100%;
+  height: 100%;
   box-sizing: border-box;
+  text-align: end;
 }
 
 .buttons {
@@ -21,6 +20,8 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   width: 100%;
+  border-top: 2px solid blueviolet;
+  padding-top: 10px;
 }
 
 .calculator button {
@@ -42,4 +43,9 @@
 
 .operator-button{
   color:blueviolet;
+}
+
+.equal-button{
+  background-color: blueviolet !important;
+  color: white;
 }
