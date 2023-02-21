@@ -1,8 +1,4 @@
 .calculator {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 50% auto auto auto;
-  gap: 10px;
   height: 100vh;
   margin: 0 auto;
   background-color: #f8f8f8;
@@ -10,12 +6,21 @@
 
 .calculator input[type="text"] {
   font-size: 24px;
-  grid-column: 1/5;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
   width: 100%;
   box-sizing: border-box;
+}
+
+.buttons {
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 100%;
 }
 
 .calculator button {
