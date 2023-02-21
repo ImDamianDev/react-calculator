@@ -11,11 +11,12 @@
 
 .calculator input[type="text"] {
   border: none;
-  font-size: 24px;
-  padding: 10px 10px 20px 10px;
+  font-size: 32px;
+  padding: 10px;
   width: 100%;
   box-sizing: border-box;
   text-align: end;
+  margin-bottom: 10px;
 }
 
 .button-container {
@@ -26,6 +27,7 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   width: 100%;
+  min-height: 50%;
   max-height: 50%;
   border-top: 2px solid blueviolet;
   padding-top: 10px;
