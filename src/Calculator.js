@@ -40,8 +40,10 @@ function Calculator() {
 
   return (
     <div className="calculator">
+      <div className='input-container'>
       <input type="text" value={input} onChange={handleInput} />
-      <div className='buttons'>
+      </div>
+      <div className='button-container'>
       <button onClick={handleClear} className="operator-button">C</button>
       <button onClick={handleDelete} className="operator-button">DE</button>
       <button onClick={handlePercent} className="operator-button">%</button>
